@@ -6,12 +6,15 @@
   "devDependencies": {
     "@types/koa": "^2.11.0",
     "@types/koa-router": "^7.4.0",
+    "@types/mockjs": "^1.0.2",
     "@types/node": "^13.1.6",
     "koa": "^2.11.0",
     "koa-router": "^7.4.0",
+    "mockjs": "^1.1.0",
     "nodemon": "^2.0.2",
     "ts-node": "^8.6.1",
     "tslint": "^5.20.1",
     "typescript": "^3.7.4"
-  }
+  },
+  "dependencies": {}
 }

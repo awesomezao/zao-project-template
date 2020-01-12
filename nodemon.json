@@ -13,7 +13,7 @@
   "events": {
     "restart": ""
   },
-  "watch": ["./server", "./mock","package.json"],
+  "watch": ["./server", "./mock","package.json","tsconfig.json"],
   "ext": "ts",
   "inspect": true,
   "delay": "2500"

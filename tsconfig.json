@@ -10,6 +10,9 @@
     "paths": {},
     "types": ["koa","koa-router"]
   },
+  "typeAcquisiton":{
+
+  },
   "include": [
     "mock/**/*",
     "server/**/*"
