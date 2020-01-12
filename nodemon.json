@@ -1,0 +1,20 @@
+{
+  "verbose": false,
+  "debug": false,
+  "exec": "node -r ts-node/register ./server/app.ts",
+  "ignore": [
+    "node_modules",
+    "test",
+    "**/*.d.ts",
+    "*.test.ts",
+    "*.spec.ts",
+    "test/**/*"
+  ],
+  "events": {
+    "restart": ""
+  },
+  "watch": ["./server", "./mock","package.json"],
+  "ext": "ts",
+  "inspect": true,
+  "delay": "2500"
+}
