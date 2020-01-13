@@ -1,4 +1,9 @@
 {
+  "name":"mock-server",
+  "author":"zao",
+  "version":"0.0.1",
+  "main":"./server/index.ts",
+  "typings":"./server/index.d.ts",
   "scripts": {
     "mock": "ts-node server/index.ts",
     "hot-mock": "nodemon --config nodemon.json"

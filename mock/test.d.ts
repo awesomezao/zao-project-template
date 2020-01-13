@@ -1,16 +1,10 @@
-declare interface Imessage {
-  sucess: string;
-  faild: string;
-}
-declare interface Igender {
-  man: string;
-  woman: string;
-}
-declare interface Iinfo {
+declare type messageType = 'sucess' | 'faild';
+declare type genderType = '男' | '女';
+export declare interface Iinfo {
   userid: number;
   realname: string;
   username: string;
-  gender: Igender;
+  gender: genderType;
   emailaddr: string;
   phone: string;
   organization: string;
@@ -20,12 +14,12 @@ declare interface Iinfo {
 declare interface Idata {
   info: Iinfo;
 }
-declare interface Iuser {
+export declare interface Iuser {
   code: number;
-  message: Imessage;
+  message: messageType;
   data: Idata;
 }
 
 // declare let user: Iuser
 
-export const user:Iuser
+export declare const user: Iuser
