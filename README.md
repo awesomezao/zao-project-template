@@ -6,7 +6,7 @@
 
      `git clone -b mock-server-ts git@github.com:lyandzao/zao-project-template.git`
 
-   + ts版本：
+   + js版本：
 
      `git clone -b mock-server-js git@github.com:lyandzao/zao-project-template.git`
 
