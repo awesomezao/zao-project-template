@@ -1,0 +1,30 @@
+{
+  "name": "emoji-commit",
+  "version": "0.0.1",
+  "description": "提交规范",
+  "repository": "https://github.com/lyandzao/zao-project-template.git",
+  "license": "MIT",
+  "author": "lyandzao <1064216064@qq.com>",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.0.1",
+    "@commitlint/config-conventional": "^9.0.1",
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0",
+    "cz-customizable": "^6.2.0",
+    "husky": "^4.2.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  }
+}
